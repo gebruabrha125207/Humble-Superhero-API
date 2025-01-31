@@ -85,8 +85,9 @@ If you want to test with more than two superheroes, simply add more POST request
 
 Expected to return superheroes sorted by humility score in descending order.
 4️⃣ Validates the Response
-
 expect(res.status).toBe(200);
+
+
 ✅ Ensures the request was successful (HTTP 200 OK).
 
 ✅ Confirms that exactly two superheroes exist in the response.

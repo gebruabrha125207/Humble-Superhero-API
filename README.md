@@ -20,11 +20,10 @@ npm or yarn
 Installation
 Clone the repository:
 
-git clone https://github.com/your-repo/humble-superhero-api.git
+git clone https://github.com/gebruabrha125207/Humble-Superhero-API.git
 cd humble-superhero-api
+cd server-BE
 
-git clone https://github.com/your-repo/humble-superhero-api.git
-cd humble-superhero-api
 
 
 Install Dependencies

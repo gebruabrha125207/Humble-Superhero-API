@@ -21,7 +21,10 @@ Installation
 Clone the repository:
 
 git clone https://github.com/gebruabrha125207/Humble-Superhero-API.git
+
 cd humble-superhero-api
+
+
 cd server-BE
 
 

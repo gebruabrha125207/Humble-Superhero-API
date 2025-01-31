@@ -98,13 +98,6 @@ expect(res.status).toBe(200);
 
 ![image](https://github.com/user-attachments/assets/8720cbb7-a840-48a4-b0ed-4fc4361143fe)
 
-
-
-
-Frontend:-
-
-
-
 Future Enhancements
 Database Integration: Replace in-memory storage with MongoDB or PostgreSQL.
 Pagination: Support large superhero lists.

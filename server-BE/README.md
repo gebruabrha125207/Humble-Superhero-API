@@ -6,7 +6,39 @@ Humble Superhero API is a simple Node.js and Express-based API that allows users
 Features
 Add superheroes with a name, superpower, and humility score (1-10).
 Retrieve a list of superheroes sorted by humility score (highest first).
-Endpoints
+
+
+Setup & Installation
+Clone the Repository
+
+Prerequisites
+
+Node.js (>=14.x)
+
+npm or yarn
+
+Installation
+Clone the repository:
+
+git clone https://github.com/your-repo/humble-superhero-api.git
+cd humble-superhero-api
+
+git clone https://github.com/your-repo/humble-superhero-api.git
+cd humble-superhero-api
+
+
+Install Dependencies
+npm install
+
+
+Start the Server
+npm start
+The API will run on http://localhost:5000.
+
+
+
+Endpoints with Manual Testing Using Postman or cURL to send requests.
+
 1️⃣ Add a Superhero
 POST /superheroes
 
@@ -31,29 +63,28 @@ Response: Returns an array of superheroes sorted by humility score in descending
 ![image](https://github.com/user-attachments/assets/6758f92f-f446-45d4-a8bb-9b6c2a72937a)
 
 
+✅ Unit Testing 
+Jest test using Supertest to verify that your Humble Superhero API correctly sorts superheroes by humility score in descending order (highest humility first).
 
-Setup & Installation
-Clone the Repository
+The test won't be affected by previous data, preventing false positives or failures due to leftover data.
 
-git clone https://github.com/your-repo/humble-superhero-api.git
-cd humble-superhero-api
-Install Dependencies
-
-npm install
-Start the Server
-
-
-npm start
-The API will run on http://localhost:5000.
-
-Testing
-🛠️ Manual Testing
-Use Postman or cURL to send requests.
-
-✅ Unit Testing
 Run Jest tests using:
 npm test
 
+
+
+
+Possible Improvements
+1. Handle Edge Cases
+✅ What if two superheroes have the same humility score?
+
+We could extend the test to check for consistent sorting when scores are equal (e.g., sort alphabetically as a secondary criterion).
+✅ What if no superheroes exist?
+
+A test case should check if GET /superheroes returns an empty array when no data is available.
+✅ What if a superhero is missing a humility score?
+
+A POST test should check that missing fields return a 400 Bad Request.
 
 
 Future Enhancements

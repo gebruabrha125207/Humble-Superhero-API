@@ -66,10 +66,29 @@ Response: Returns an array of superheroes sorted by humility score in descending
 ✅ Unit Testing 
 Jest test using Supertest to verify that your Humble Superhero API correctly sorts superheroes by humility score in descending order (highest humility first).
 
-The test won't be affected by previous data, preventing false positives or failures due to leftover data.
-
 Run Jest tests using:
 npm test
+
+what  did the code do:-
+
+1️⃣ Clears the Superhero Database Before Each Test
+The test won't be affected by previous data, preventing false positives or failures due to leftover data.
+
+
+2️⃣ Adds Two Superheroes to the API (POST /superheroes)
+
+3️⃣ Retrieves All Superheroes (GET /superheroes)
+   Calls the API to fetch all superheroes.
+
+Expected to return superheroes sorted by humility score in descending order.
+4️⃣ Validates the Response
+
+expect(res.status).toBe(200);
+✅ Ensures the request was successful (HTTP 200 OK).
+
+✅ Confirms that exactly two superheroes exist in the response.
+
+✅ Verifies sorting by humility score:
 
 
 

@@ -94,20 +94,13 @@ expect(res.status).toBe(200);
 
 ✅ Verifies sorting by humility score:
 
+![image](https://github.com/user-attachments/assets/8720cbb7-a840-48a4-b0ed-4fc4361143fe)
 
 
 
-Possible Improvements
-1. Handle Edge Cases
-✅ What if two superheroes have the same humility score?
 
-We could extend the test to check for consistent sorting when scores are equal (e.g., sort alphabetically as a secondary criterion).
-✅ What if no superheroes exist?
+Frontend:-
 
-A test case should check if GET /superheroes returns an empty array when no data is available.
-✅ What if a superhero is missing a humility score?
-
-A POST test should check that missing fields return a 400 Bad Request.
 
 
 Future Enhancements
@@ -117,4 +110,3 @@ Authentication: Secure API with JWT-based authentication.
 
 
 
-Fronend :-

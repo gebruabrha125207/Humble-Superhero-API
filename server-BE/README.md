@@ -1,7 +1,7 @@
 
-Humble Superhero API
-Overview
+Humble Superhero API:-
 Humble Superhero API is a simple Node.js and Express-based API that allows users to store and retrieve superheroes, ranked by their humility.
+
 
 Features
 Add superheroes with a name, superpower, and humility score (1-10).
@@ -11,14 +11,17 @@ Endpoints
 POST /superheroes
 
 Request Body (JSON):
-json
-Copy
+
 Edit
 {
   "name": "Superhumble",
   "superpower": "Invisibility",
   "humilityScore": 9
 }
+
+![image](https://github.com/user-attachments/assets/8c24a7e0-9597-4acf-902f-75eb414593c8)
+
+
 Response: Returns the added superhero.
 2️⃣ Get Superheroes
 GET /superheroes

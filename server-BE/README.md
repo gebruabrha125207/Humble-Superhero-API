@@ -28,6 +28,9 @@ GET /superheroes
 
 Response: Returns an array of superheroes sorted by humility score in descending order.
 
+![image](https://github.com/user-attachments/assets/6758f92f-f446-45d4-a8bb-9b6c2a72937a)
+
+
 
 Setup & Installation
 Clone the Repository

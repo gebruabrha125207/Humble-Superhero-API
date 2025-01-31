@@ -71,11 +71,14 @@ npm test
 
 what  did the code do:-
 
+
 1️⃣ Clears the Superhero Database Before Each Test
 The test won't be affected by previous data, preventing false positives or failures due to leftover data.
 
 
 2️⃣ Adds Two Superheroes to the API (POST /superheroes)
+If you want to test with more than two superheroes, simply add more POST requests:
+
 
 3️⃣ Retrieves All Superheroes (GET /superheroes)
    Calls the API to fetch all superheroes.

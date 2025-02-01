@@ -101,11 +101,11 @@ expect(res.status).toBe(200);
 
 If i had more time:-
 
-Database Integration: Replace in-memory storage with MongoDB or PostgreSQL.
+1.Database Integration: Replace in-memory storage with MongoDB or PostgreSQL.
 
-Pagination: Support large superhero lists.
+2.Pagination: Support large superhero lists.
 
-Authentication: Secure API with JWT-based authentication.
+3.Authentication: Secure API with JWT-based authentication.
 
 
 

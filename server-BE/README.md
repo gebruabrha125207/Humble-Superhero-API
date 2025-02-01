@@ -97,16 +97,13 @@ expect(res.status).toBe(200);
 ![image](https://github.com/user-attachments/assets/8720cbb7-a840-48a4-b0ed-4fc4361143fe)
 
 
+If i had a time:-
 
+1.DB integration: Replace in-memory storage with MongoDB or PostgreSQL.
 
-Frontend:-
+2.Pagination: Support large superhero lists.
 
-
-
-Future Enhancements
-Database Integration: Replace in-memory storage with MongoDB or PostgreSQL.
-Pagination: Support large superhero lists.
-Authentication: Secure API with JWT-based authentication.
+3.Authentication: Secure API with JWT-based authentication.
 
 
 

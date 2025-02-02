@@ -99,13 +99,21 @@ expect(res.status).toBe(200);
 ![image](https://github.com/user-attachments/assets/8720cbb7-a840-48a4-b0ed-4fc4361143fe)
 
 
-If i had more time:-
+If I had more time, I would:
 
-1.Database Integration: Replace in-memory storage with MongoDB or PostgreSQL.
+1.Database Integration: Replace in-memory storage with a robust database like MongoDB or PostgreSQL for better scalability and persistence.
 
-2.Pagination: Support large superhero lists.
+2.Pagination: Implement efficient pagination to handle large superhero lists and improve performance.
 
-3.Authentication: Secure API with JWT-based authentication.
+3.Authentication & Security: Secure the API using JWT-based authentication, ensuring safe access control and user verification.
 
+4.Caching: Integrate caching mechanisms (e.g., Redis) to enhance response times and reduce database load.
 
+5.Logging & Monitoring: Implement proper logging and monitoring tools (e.g., Winston, Prometheus) for debugging and system health tracking.
+
+6.Rate Limiting: Prevent abuse by adding rate limiting to API endpoints.
+
+7.Testing: Write comprehensive unit and integration tests to ensure reliability and maintainability.
+
+8.API Documentation: Provide clear and structured API documentation using Swagger or Postman for easy adoption.
 

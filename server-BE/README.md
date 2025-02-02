@@ -114,8 +114,6 @@ If I had more time, I would:
 
 8.API Documentation: Provide clear and structured API documentation using Swagger or Postman for easy adoption.
 
-9. Input Sanitization:- Use escape() from express-validator to prevent XSS attacks and ensure safe user input handling.
+9.Input Sanitization:- Use escape() from express-validator to prevent XSS attacks and ensure safe user input handling.
 
-10. Use express.json() Instead of body-parser
-
-Since Express 4.16+, express.json() can be used instead of body-parser.json() for handling JSON payloads, reducing dependencies and improving efficiency.
+10.Use express.json() Instead of body-parser:-Since Express 4.16+, express.json() can be used instead of body-parser.json() for handling JSON payloads, reducing dependencies and improving efficiency.

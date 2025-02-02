@@ -117,3 +117,10 @@ If I had more time, I would:
 9.Input Sanitization:- Use escape() from express-validator to prevent XSS attacks and ensure safe user input handling.
 
 10.Use express.json() Instead of body-parser:-Since Express 4.16+, express.json() can be used instead of body-parser.json() for handling JSON payloads, reducing dependencies and improving efficiency.
+
+11.Expand Test Coverage
+Add edge case tests, such as:
+✅ Handling missing fields in requests
+✅ Testing invalid humilityScore values
+✅ Ensuring empty lists return 200 instead of 500
+✅ Checking if duplicate superheroes are handled correctly
